@@ -1,0 +1,17 @@
+header{
+	background:url(../img/uvz.png) no-repeat center top / cover;
+	height:851px;
+	color:fff;
+}
+
+.conteiner{
+	margin:0;
+}
+body{
+	font-family:arial, sans-serif;
+	padding:0;
+	margin:0;
+}
+.t1{
+	text-align:center;
+}

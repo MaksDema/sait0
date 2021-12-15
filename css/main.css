@@ -1,0 +1,116 @@
+body{
+	color:black;
+	font-family:arial, sans-serif;
+	padding:0;
+	margin:0;
+}
+.clearfix{
+	content:'';
+	display:table;
+	width:100%;
+	clear: both;
+}
+div{
+	box-sizing: border-box;
+}
+header{
+	background: url(../img/t80-nl.png) no-repeat center top / cover;
+	height:600px;
+}
+.conteiner{
+	
+	 width:930px;
+	 
+	
+	 margin:0 auto;
+}
+.logo{
+	float:left;
+	margin-top: 41px;
+	
+}
+nav{
+	float:right;
+	margin-top:50px;
+}
+.menu{
+	display:block;
+	padding:0;
+	margin:0;
+}
+.menu li {
+	
+	display:block;
+	margin-right:41px;
+	font-size:14px;
+	
+}
+.menu table{
+	float:left;
+	border-collapse: collapse;
+}
+
+.n{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom:0px;
+	border-top:0px;
+	
+}
+.r{
+	border-right:0px;
+}
+.l{
+	border-left:0px;
+}
+.menu tr{
+	border:none;
+}
+.menu a{
+	padding:10;
+	color:#000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.t1{
+	font-size:40px;
+	color:fff;
+	text-transform:uppercase;
+	text-align:center;
+	margin-top:180px;
+}
+h1{
+font-size:75px;
+	color:fff;
+	text-transform:uppercase;
+	text-align:center;	
+}
+.s{
+	background: url(../img/t14.png) no-repeat center top / cover;
+	height:851px;
+	
+}
+
+.l1{
+	grid-area: left1;
+	text-align:center;
+}
+
+.r2{
+	grid-area: right1;
+	text-align:center;
+}
+}
+.c1{
+	grid-area: centr1;
+}
+
+
+.gr{
+	display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+    
+    "left1 centr1 right1";
+    grid-template-columns: 1fr,3fr,1fr;
+
